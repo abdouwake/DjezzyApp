@@ -1,0 +1,111 @@
+body {
+  background-image: url('doodle.jpg');
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.navbar {
+  background-color: #FF4366;
+  color: white !important;
+  border: none;
+  display: inline-list-item;
+}
+
+.navbar-inverse .navbar-nav  li   {
+  color : white;
+  font-size: 20px;
+
+}
+
+.navbar-inverse .navbar-header a {
+  color:white;
+  font-size: 30px;
+}
+
+.navbar-inverse .navbar-headerLink   {
+  display: inline;
+  color:white;
+}
+
+.navbar-inverse .navbar-nav  ul {
+  background-color : white;
+  color:#FF4366;
+  text-decoration: none;
+}
+.navbar-inverse .navbar-nav  li:hover {
+  color : #3C1053FF ;
+  text-decoration: none;
+}
+
+.navbar-inverse .navbar-nav li:active{
+  color:black;
+  text-decoration: none;
+}
+
+ul#horizental {
+  padding-top: 9px;
+  text-decoration: none;
+}
+
+ul#horizental li {
+  display: inline;
+  font-size: 25px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+ul#horizental li:hover {
+  text-decoration: none;
+
+}
+
+html {
+  font-size: 16px;
+}
+
+#djezz {
+  width: 40px;
+  position: absolute;
+  right: 5px;
+}
+
+#Link{
+  color: green;
+}
+/*STICKY FOOTER
+
+ */
+
+.footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  overflow: hidden;
+
+  position: absolute;
+  text-align: center;
+
+  background-color: #FF4366;
+  color: white;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+#djezz2{
+  width: 50px;
+}
+
